@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic content form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="number">Age:</label><br>
+        <input type="number" id="number" name="number" required><br><br>
+        
+        <label for="date">Date of birth</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label>Gender :</label>
+        <div class="gender">
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female">Female</label>
+            <label><input type="radio" name="gender" value="other">Other</label>
+        </div>
+
+        <label>Skills</label>
+        <div class="Skills">
+            <label><input type="checkbox" name="Skills" value="HTMl" required>HTML</label>
+            <label><input type="checkbox" name="Skills" value="CSS">CSS</label>
+            <label><input type="checkbox" name="Skills" value="JavaScript">JavaScript</label>
+        </div>
+
+        <label for="country">Country</label>
+        <select>
+            <option value="">-Select country-</option>
+            <option value="India">India</option>
+            <option value="Uk">Uk</option>
+            <option value="USA">USA</option>
+        </select><br><br>
+
+        <label for="resume">Upload resume: </label><br>
+        <input type="file" id="resume" name="resume" required><br><br>
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
