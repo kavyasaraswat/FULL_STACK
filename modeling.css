@@ -1,0 +1,23 @@
+body{
+    /* background-color: rgba(10, 155, 227, 0.2); */
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-color: black;
+}
+#name1,#email1,#age,#dob{
+    color: gold;
+    font-size: 24px;
+}
+#gender1,#skill,#country1,#resume1{
+    color:aqua ;
+    font-size: 24px;
+}
+.gender{
+    color: white;
+}
+.Skills{
+    color: white;
+}
